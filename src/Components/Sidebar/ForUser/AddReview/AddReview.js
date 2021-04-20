@@ -21,7 +21,7 @@ const AddReview = () => {
 
          console.log(data);
          // post data to database
-        fetch(`http://localhost:5500/addReview`, {
+        fetch(`https://nameless-island-27999.herokuapp.com/addReview`, {
             method: 'POST',
             headers: {
                 "content-type": "application/json",

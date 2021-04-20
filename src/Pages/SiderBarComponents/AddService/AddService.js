@@ -44,7 +44,7 @@ const submitHandler = (event) => {
     }
 
     // post data to database
-    fetch(`http://localhost:5500/addService`, {
+    fetch(`https://nameless-island-27999.herokuapp.com/addService`, {
         method: 'POST',
         headers: {
             "content-type": "application/json",

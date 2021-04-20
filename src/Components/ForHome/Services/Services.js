@@ -6,7 +6,7 @@ const Services = ({isNav}) => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5500/servicesInfo')
+        fetch('https://nameless-island-27999.herokuapp.com/servicesInfo')
         .then(res => res.json())
         .then(json => setData(json))
     })

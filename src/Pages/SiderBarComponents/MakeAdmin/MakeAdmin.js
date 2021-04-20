@@ -12,7 +12,7 @@ const MakeAdmin = () => {
     const submitHandler = (e) => {
         e.preventDefault();
         console.log(email);
-        fetch(`http://localhost:5500/makeAdmin`, {
+        fetch(`https://nameless-island-27999.herokuapp.com/makeAdmin`, {
             method: 'POST',
             headers: {
                 "content-type": "application/json",
