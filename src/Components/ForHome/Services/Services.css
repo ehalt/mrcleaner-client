@@ -31,12 +31,6 @@
     padding-bottom: 15px;
 }
 
-.line{
-    background-color: #1ABC9C;
-    width: 20%;
-    height: 3px;
-}
-
 .services-card-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

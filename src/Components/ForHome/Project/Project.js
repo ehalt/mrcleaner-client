@@ -13,7 +13,6 @@ const Project = () => {
                         <h5>Our Works</h5>
                         <h2>We Have Completed </h2>
                         <h3>Latest Works.</h3>
-                        <div className="line"></div>
                     </div>
 
                     <div className="services-card-grid">

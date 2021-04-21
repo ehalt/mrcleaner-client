@@ -21,7 +21,6 @@ const Services = ({isNav}) => {
                         <h5>Our Services</h5>
                         <h2>Over 10+ years Experience</h2>
                         <h3>In cleaning Service.</h3>
-                        <div className="line"></div>
                     </div>
 
 

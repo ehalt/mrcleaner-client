@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaInstagram, FaGithub} from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
 import './Footer.css';
 const Footer = () => {
     return (
@@ -9,33 +9,37 @@ const Footer = () => {
                     <div className="footer-info-grid">
                         <div className="footer-logo">
                             <h4>Mr. Cleaner</h4>
-                            <p>With over 10 years of experience in the cleaning industry our reputation has grown and grown. And we owe it all to you, our clients.</p>
+                            <p>Let us use our years of experience, skilled employees, and advanced procedures to ensure a clean and healthy environment for your employees, customers and guests <br />  <br /> Let us use our years of experience, skilled employees, and advanced procedures to ensure a clean and healthy environment for your employees, customers and guests</p>
                         </div>
                         <div className="services-footer">
-                            <h4>Services Type</h4>
-                            <li>Residential</li>
-                            <li>Commercial</li>
-                            <li>Primium</li>
-                            <li>Our Process</li>
+                            <h4>Cleaning Services</h4>
+                            <p>Apartment Cleaning</p>
+                            <p>House Cleaning</p>
+                            <p>Move In/ Move out</p>
+                            <p>Carpet Cleaning</p>
+                            <p>After Renovation</p>
+                            <p>Curtain Cleaning</p>
                         </div>
 
                         <div className="contact-footer">
-                            <h4>Contact Info</h4>
-                            <p>245 Lorem Street Bangladesh, IL 8778.</p>
-                            <p>+00817342999</p>
+                            <h4>Contact Information</h4>
+                            <p>3261 Anmoore Road Brooklyn, NY 11230</p>
+                            <p>800-123-4567, Fax: 718-724-3312</p>
+                            <p>officeone@youremail.com</p>
+                            <p>Mon-Fri: 9:00 am – 5:00 pm <br/> Sat-Sun: 11:00 am – 16:00 pm</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="footer-area">
-                <h4>&copy; Copyright by Mr. Cleaner</h4>
-                <div className="social-icons-flex">
-                    <FaFacebook className='icon'/>
-                    <FaInstagram className='icon'/>
-                    <FaGithub className='icon'/>
+                    <h4>&copy; Copyright by Mr. Cleaner</h4>
+                    <div className="social-icons-flex">
+                        <FaFacebook className='icon' />
+                        <FaInstagram className='icon' />
+                        <FaGithub className='icon' />
+                    </div>
                 </div>
-                </div>
-            </section>   
+            </section>
         </>
     )
 }

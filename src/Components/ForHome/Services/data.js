@@ -52,27 +52,27 @@ export const fakeServicesData = [
 export const projectData = [
     {
         img:p1,
-        title:'House Cleaned',
-        option:['Floor', 'Desk', 'Large Wall', "Whole Room"]
+        title:'Successfully Cleaned',
+        option:['Floor', 'Tob', 'Lab', "Whole Room"]
     },
     {
         img:p2,
-        title:'Home Cleaned', 
-        option: ['Room', 'Interior Area', 'All Desk', 'Whole House']
+        title:'Successfully cleaned', 
+        option: ['Room', 'corner Area', 'All work station', 'Whole corner']
     }, 
     {
         img:p3,
-        title:'Car Cleaned', 
-        option:['Dashborad', 'Vents', 'Engine Bay',  'Undercarriage']
+        title:'Successfully cleaned', 
+        option:['Wheels', 'Vents', 'Engine Bay',  'Undercarriage']
     },
     {
         img:p4, 
-        title: 'Building Cleaned',
+        title: 'Successfully cleaned',
         option:['Cleaning', 'Painting', 'More Washing', 'Whole Building']
     }, 
     {
         img:p5,
-        title:"Cartpet Cleaned",
+        title:"Successfully cleaned",
         option:['Washing','Lingering Odors', 'Specifications', 'Carpet’s Lifespan']
     }
 ]
@@ -84,21 +84,21 @@ export const pricingData = [
         type:'Standard',
         price:15,
         per:'Per Hour',
-        services:['Expert cleaner', 'Secure services', 'Organic cleaning', '-------', '-------'],
+        services:['Trained Cleaner', 'Maintainance Cleaning', 'Liablity Insurance', 'Planned Holidy Cover', 'Feedback Center Access'],
         off:''
     },
     {
         type:'Premium',
-        price:300,
+        price:150,
         per:'Per Day',
-        services:['Expert cleaner', 'Secure services', 'Organic cleaning', 'More Washing','-------'],
+        services:['Experienced & Trained Cleaner', 'Maintenance Cleaning', 'Insured Liability & Damage', 'Planned Holiday Cover','You Choose from 3 Cleaning Days'],
         off:'5% Off'
     }, 
     {
         type:'Ultimate',
-        price:2050,
+        price:3000,
         per:'Per Month',
-        services:['Expert cleaner', 'Secure services', 'Organic cleaning', 'More Washing', 'Free Spupport'],
+        services:['Experienced & Trained Cleaner', 'Insured Liability & Damage', 'Insured Liability & Damage', 'Planned Holiday Cover', 'You Choose Cleaning Day'],
         off:'20% Off'
     }
 ]

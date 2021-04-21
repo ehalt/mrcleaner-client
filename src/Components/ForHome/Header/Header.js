@@ -10,16 +10,14 @@ const Header = () => {
                         <div className="header-main-flex">
                         <div className="header-info">
                             <h6>Quality Service</h6>
-                            <h1>Wanna clean</h1>
-                            <h2>Here we are to clean</h2>
+                            <h1>So Fresh & So Clean</h1>
+                            {/* <h2>Here we are to clean</h2> */}
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing. <br></br> elit Explicabo, praesentium?</p>
 
-                            <button className='btn style'>Get started</button>
+                            <button className='btn style'>Free Estimate</button>
                         </div>
 
-                        <div className="header-hero-img">
-                            <img src={img} alt="img"/>
-                        </div>
+                       
                         </div>
 
                     </div>

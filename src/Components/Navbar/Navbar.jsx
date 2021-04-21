@@ -30,7 +30,7 @@ const Navbar = () => {
                 <div className="container">
                 <div className="nav-flex">
                     <Link style={{textDecoration:'none'}} to='/'><h4>Mr. Cleaner</h4>
-                        <p>Cleaning Agency</p>
+                        <p>Cleaning Company</p>
                     </Link>
 
                     <div className="nav-items Nav-Items">

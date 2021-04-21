@@ -4,14 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #080b24;
+    background-color: #1ABC9C;
     flex-direction: column;
     padding: 50px 0;
 }
 
 .footer-area h4{
     color: #fff;
-    text-transform: uppercase;
     font-size: 20px;
     margin: 0;
     padding-top: 30px;
@@ -36,7 +35,6 @@
 }
 
 .footer-logo h4, .services-footer h4, .contact-footer h4{
-    text-transform: uppercase;
     font-size: 25px;
     font-weight: 900;
     color: #fff;
@@ -66,7 +64,7 @@
 }
 @media screen and (max-width: 576px ){
     .footer-area h4{
-        font-size: 12px;
+        font-size: 25px;
     }
 }
 

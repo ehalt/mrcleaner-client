@@ -20,10 +20,8 @@ const Pricing = () => {
                             pricingData.map(item => {
                                 return (
                                     <div className="pricing-card">
-                                        {
-                                            item.off && <span className='les'>{item.off}</span>
-                                        }
                                         <h1>{item.type}</h1>
+                                        <hr/>
 
                                         <div className="rates">
                                             <span className='prices'><span className="dollar">$</span>{item.price}</span>
@@ -37,7 +35,7 @@ const Pricing = () => {
                                                 })
                                             }
                                         </div>
-                                        <button className='price-btn'>BOOK NOW</button>
+                                        <button className='price-btn'>Order Now</button>
 
                                     </div>
                                 )
